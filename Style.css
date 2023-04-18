@@ -1,0 +1,45 @@
+#logo{
+    width: 200px;
+   
+}
+#top_nav{
+    padding: 0 8%;
+}
+
+#links{
+    padding-left: 5%;
+    font-size: 25px;
+}
+#number{
+    padding-left: 20%;
+    font-size: 25px;
+    
+}#number a{
+    padding-right: 5px;
+}
+
+#navbar-text{
+    padding-left: 10%;
+}
+#number i{
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: #CAD5E2;
+}
+#links a:hover{
+    color: #CAD5E2;
+    
+}
+@media only screen and (max-width:700px)
+{
+    #number {
+        position: relative;
+        left: -20px;
+        font-size: 20px;
+    }
+    #links{
+        font-size: 17px;
+    }
+}
