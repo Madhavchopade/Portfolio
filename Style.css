@@ -32,6 +32,48 @@
     color: #CAD5E2;
     
 }
+#banner img{
+    width: 65%;
+    border-radius: 15px;
+    margin-left: 18%;
+    height: 100%;
+}
+#banner-img{
+    background-color: black;
+    border-radius: 15px;
+
+}
+#banner{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#banner-text{
+    color: black;
+    text-align: center;
+}
+#banner-text h1{
+    font-size: 80px;
+    padding-bottom: 25px;
+    padding-top: 30px;
+   
+
+}
+
+#banner-text p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+#b-btn1{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+ }
+
 @media only screen and (max-width:700px)
 {
     #number {
@@ -42,4 +84,31 @@
     #links{
         font-size: 17px;
     }
+    #banner-text{
+        font-size: 20px;
+    }
+    #banner-text h1{
+        font-size: 22px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+       
+    
+    }
+    #banner-text p{
+        font-size: 10px;
+        text-align: center;
+        padding-bottom: 5px;
+    
+    }
+
+    #b-btn1{
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        border-radius: 15px;
+       
+     }
+     #banner-text h2{
+        font-size: 15px;
+     }
 }
