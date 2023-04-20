@@ -19,7 +19,7 @@
 }
 
 #navbar-text{
-    padding-left: 10%;
+    padding-left: 15%;
 }
 #number i{
     font-size: 22px;
@@ -31,6 +31,10 @@
 #links a:hover{
     color: #CAD5E2;
     
+}
+#container
+{
+    margin-top: 2%;
 }
 #banner img{
     width: 65%;
@@ -46,6 +50,7 @@
 #banner{
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 3%;
 }
 #banner-text{
     color: black;
@@ -72,6 +77,50 @@
     border-radius: 10px;
     margin-top: 20px;
    
+ }
+ #contact-me{
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(248,249,250);
+    padding-bottom: 25px;
+    margin-top: 5%;
+ }
+ #contactme{
+
+    background-color: rgb(237,237,237);
+    border-radius: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+ #contactme i{
+    font-size: 60px;
+    text-align: center;
+    margin-left: 80px;
+   
+   
+    
+ }
+ #i1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  
+    
+ }
+ #contactme h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ #contactme p{
+    margin-top: 20px;
+    font-size: 20px;
+ }
+ #add-number
+ {
+    margin-left: 30%;
  }
 
 @media only screen and (max-width:700px)
@@ -111,4 +160,19 @@
      #banner-text h2{
         font-size: 15px;
      }
+     #contact-me{
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+     }
+   
+     #contactme{
+        border-radius: 35px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+     }
+    
 }
