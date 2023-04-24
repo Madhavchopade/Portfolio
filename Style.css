@@ -143,17 +143,25 @@
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 15px;
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 40px;
     background-color: rgb(237,237,237);
     border-radius: 30%;
     box-shadow: 0 2px 5px black;
+    
   }
   .f1{
     margin-top: 30px;
    margin-bottom: 80px;
   }
-  .my-skill-text{
+  .footer a{
+    text-decoration: none;
+    color: black;
+    
+    
+  }
+
+  .my-skill-text,.my-education-text{
     
     margin-top: 20px;
     margin-bottom: 30px;
@@ -177,7 +185,15 @@
     margin-bottom: 15px;
     text-align: center;
   }
-  
+ #education{
+    background-color: rgb(237,237,237);
+    border-radius: 20px;
+    margin: 7px;
+    box-shadow: 0 3px 5px black;
+    text-align: center;
+    margin-top: 15px;
+
+ }
 
 @media only screen and (max-width:700px)
 {
@@ -247,6 +263,7 @@
      .footer i{
         font-size: 25px;
         margin-left: 10px;
+        margin-top: 20px;
         
       
       }
@@ -255,6 +272,13 @@
       }
       #skills{
         width: 80%;
+        margin-top: 20px;
+      }
+      #education{
+        width: 80%;
+      }
+       .footer a{
+        margin-top: 20px;
       }
       
     
