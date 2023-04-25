@@ -119,6 +119,12 @@
     margin-top: 20px;
     font-size: 20px;
  }
+ #mail {
+    margin-top: 25px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 25px;
+ }
  #add-number
  {
     margin-left: 30%;
@@ -252,16 +258,18 @@
         margin-left: 20px;
        
      }
-     #mail{
-        font-size: 0px;
-     }
+    
      #contactme h1{
         font-size: 20px;
         text-align: center;
      }
-     #contactme p{
-        font-size: 15px;
+     #contactme p {
+        font-size:15px;
         margin-left: 0px;
+     }
+     #mail  {
+        font-size:12px;
+        margin-left: -5px;
      }
      .footer i{
         font-size: 25px;
