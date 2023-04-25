@@ -252,6 +252,9 @@
         margin-left: 20px;
        
      }
+     #mail{
+        font-size: 0px;
+     }
      #contactme h1{
         font-size: 20px;
         text-align: center;
